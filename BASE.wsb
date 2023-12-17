@@ -1,0 +1,39 @@
+<Configuration>
+
+    <!-- Note: 'WDAGUtilityAccount' is the name of the local account inside the sandbox! -->
+
+    <!-- Hardware -->
+    <vGPU>Enabled</vGPU>
+    <MemoryInMB>15000</MemoryInMB>
+
+    <!-- Connections/Network -->
+    <Networking>Enabled</Networking>
+
+    <!-- Input/Output -->
+    <AudioInput>Enabled</AudioInput>
+    <VideoInput>Disabled</VideoInput>
+
+    <!-- Folders -->
+    <MappedFolders>
+        <MappedFolder>
+          <HostFolder>F:\sandbox\shared.read-only</HostFolder>
+          <SandboxFolder>C:\users\WDAGUtilityAccount\Desktop\.shared</SandboxFolder>
+          <ReadOnly>true</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>F:\sandbox\setup.read-only</HostFolder>
+            <SandboxFolder>C:\.setup</SandboxFolder>
+            <ReadOnly>true</ReadOnly>
+          </MappedFolder>
+      </MappedFolders>
+
+    <!-- Security -->
+    <ProtectedClient>Enabled</ProtectedClient>
+    <ClipboardRedirection>Enabled</ClipboardRedirection>
+
+    <!-- Extra! -->
+    <LogonCommand>
+        <Command>c:\.setup\start.cmd</Command>
+    </LogonCommand>
+
+</Configuration>

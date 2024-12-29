@@ -16,12 +16,12 @@
     <!-- Folders -->
     <MappedFolders>
         <MappedFolder>
-          <HostFolder>F:\sandbox\shared.read-only</HostFolder>
+          <HostFolder>F:\development\sandbox\shared.read-only</HostFolder>
           <SandboxFolder>C:\users\WDAGUtilityAccount\Desktop\.shared</SandboxFolder>
           <ReadOnly>true</ReadOnly>
         </MappedFolder>
         <MappedFolder>
-            <HostFolder>F:\sandbox\setup.read-only</HostFolder>
+            <HostFolder>F:\development\sandbox\setup.read-only</HostFolder>
             <SandboxFolder>C:\.setup</SandboxFolder>
             <ReadOnly>true</ReadOnly>
           </MappedFolder>
